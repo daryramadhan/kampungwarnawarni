@@ -190,13 +190,18 @@ header .bg-curve {
 
 .merchandise-section .merchandise-section-details .card-merchandise {
   min-height: 380px;
-  background-color: #ddd;
+  background-color: rgba(0, 0, 0, 0.363);
   color: white;
   padding: 30px;
   background-size: cover;
   margin-bottom: 20px;
   margin-top: 50px;
   border-radius: 10px;
+}
+
+.merchandise-section .merchandise-section-details .card-merchandise img {
+  background-blend-mode: darken;
+  opacity: 50%;
 }
 
 .merchandise-section .merchandise-section-details .merchandise-name {
@@ -235,12 +240,26 @@ header .bg-curve {
   width: 30%;
 }
 
+.merchandise-section .merch-icon float:left .title {
+  font-weight: normal;
+}
+
+.merchandise-section .merch-icon img {
+  margin-right: 30px;
+  margin-top: 3px;
+}
+
 .video-gallery {
   margin-top: 80px;
 }
 
 .video-gallery .videos-icon float:left .title {
   font-weight: normal;
+}
+
+.video-gallery .videos-icon img {
+  margin-right: 30px;
+  margin-top: 3px;
 }
 
 hr {
@@ -263,6 +282,11 @@ hr {
 .location-maps .maps-icon float:left .title {
   text-align: left;
   font-weight: normal;
+}
+
+.location-maps .maps-icon img {
+  margin-right: 30px;
+  margin-top: 3px;
 }
 
 .location-maps hr {
